@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: grey;
+  color: black;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+
+.section {
+  margin-top: 40px;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input,
+textarea {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  border-color:blue;
+  outline: none;
+}
+
+.btn {
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  background-color: green;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.btn.cancel {
+  background-color:red;
+}
+
+.btn.cancel:hover {
+  background-color: #495057;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.post-card {
+  background-color: antiquewhite;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+.post-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.post-card p {
+  margin-bottom: 5px;
+}
+
+.post-card .author {
+  font-size: 0.9rem;
+  color:grey;
+  font-style: italic;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: grey;
+}
