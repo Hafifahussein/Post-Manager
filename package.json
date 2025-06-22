@@ -1,12 +1,16 @@
 {
   "name": "post-manager",
   "version": "1.0.0",
+  "description": "Welcome to Post-Manager — a simple, stylish, and snappy blog post manager built with love using HTML, CSS, JavaScript, and a fake API powered by JSON Server!",
   "main": "index.js",
   "scripts": {
+    "start:server": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
 }

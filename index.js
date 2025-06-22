@@ -153,5 +153,5 @@ function likePost(id) {
     .then(() => loadPosts());
 }
 
-// Initial load
+
 loadPosts();
