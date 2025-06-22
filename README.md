@@ -15,11 +15,14 @@ You can add, edit, delete, and like blog posts — all from your browser!
 
 ## ⚙️ How to Set It Up (In Minutes!)
 1. **Clone the Repository** 
-git clone https://github.com/YOUR-USERNAME/Post-Manager.git
+git clone https://github.com/Hafifahussein/Post-Manager.git
+
 cd Post-Manager
 
 
 ## Author 
 Hafifa Hussein
+
+
 ## license
 MIT License
