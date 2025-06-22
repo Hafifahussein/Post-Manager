@@ -1,11 +1,11 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "First Blog Post",
       "content": "This is the content of the first blog post.",
       "author": "Author One",
-      "likes": 0
+      "likes": 4
     }
   ]
 }

@@ -83,8 +83,15 @@ textarea:focus {
 }
 
 .btn.cancel {
-  background-color:red;
+  background-color:green; 
+  color: #fff;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
 
 .btn.cancel:hover {
   background-color: #495057;
