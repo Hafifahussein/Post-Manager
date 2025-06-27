@@ -67,36 +67,46 @@ textarea:focus {
 }
 
 .btn {
-  padding: 10px 16px;
-  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
   font-weight: bold;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  color: #fff;
-  background-color: green;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: grey;
-}
-
-.btn.cancel {
-  background-color:green; 
-  color: #fff;
-  border: none;
-  padding: 0.6em 1.2em;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s;
+  margin-right: 5px;
 }
 
 
-.btn.cancel:hover {
-  background-color: #495057;
+.edit-btn {
+  background-color: #3498db;
+  color: white;
 }
 
+.edit-btn:hover {
+  background-color: #2980b9;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.like-btn {
+  background-color: #e84393;
+  color: white;
+}
+
+.like-btn:hover {
+  background-color: #fd79a8;
+}
+
+.btn i {
+  margin-right: 5px;
+}
 .button-group {
   display: flex;
   gap: 10px;
