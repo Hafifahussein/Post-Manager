@@ -20,7 +20,9 @@ You can add, edit, delete, and like blog posts — all from your browser!
     git clone https://github.com/Hafifahussein/Post-Manager.git
    ```
 
-   cd Post-Manager
+   ```bash
+      cd Post-Manager
+   ```
 
 2. **Run**:
 
