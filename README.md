@@ -20,11 +20,15 @@ You can add, edit, delete, and like blog posts — all from your browser!
     git clone https://github.com/Hafifahussein/Post-Manager.git
    ```
 
-   ```bash
-      npm run start:server
-   ```
+   cd Post-Manager
 
-2. Open `index.html` in a browser, Go live
+2. **Run**:
+
+```bash
+   npm run start:server
+```
+
+3. Open `index.html` in a browser, Go live
 
 cd Post-Manager
 
