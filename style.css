@@ -75,6 +75,7 @@ textarea:focus {
   font-weight: bold;
   transition: background-color 0.3s;
   margin-right: 5px;
+  background-color: #90EE90;
 }
 
 
